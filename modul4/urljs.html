@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Contoh JavaScript dari URL</title>
+    <!-- Memanggil library eksternal dari URL (contoh: jQuery dari CDN) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Contoh JavaScript dari URL</h1>
+    <button id="tombol">Klik Saya</button>
+
+    <script>
+        // Menggunakan jQuery yang diambil dari URL
+        $(document).ready(function() {
+            $("#tombol").click(function() {
+                alert("Tombol diklik! (menggunakan jQuery dari URL)");
+            });
+        });
+    </script>
+</body>
+</html>
